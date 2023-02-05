@@ -11,11 +11,11 @@ NODE  | CPU     | RAM      | SSD     |
 
 ### Auto install
 ```
-wget -O wormholes.sh https://raw.githubusercontent.com/dwentz-inc/node-testnet/main/wormholeschain/wormholes.sh && chmod +x wormholes.sh && ./wormholes.sh
+wget -O wormholes.sh https://github.com/an-node/NODE-TESTNET/blob/main/Wormholes/wormholes.sh && chmod +x wormholes.sh && ./wormholes.sh
 ```
 ### Monitoring
 ```
-wget -O monitor.sh https://raw.githubusercontent.com/dwentz-inc/node-testnet/main/wormholeschain/monitor.sh && chmod +x monitor.sh && ./monitor.sh
+wget -O wormholes.sh https://github.com/an-node/NODE-TESTNET/blob/main/Wormholes/monitor.sh && chmod +x wormholes.sh && ./wormholes.sh
 ```
 ### Next ? Become A Validator
 ` membutuhkan 70k ERB untuk menjadi validator `
