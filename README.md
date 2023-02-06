@@ -37,11 +37,12 @@ curl -O https://gitlab.com/shardeum/validator/dashboard/-/raw/main/installer.sh 
 ```
 curl -O https://gitlab.com/shardeum/validator/dashboard/-/raw/main/installer.sh && chmod +x installer.sh && ./installer.sh
 ```
-Do you want to run the web based Dashboard? (y/n): y 
+```
+Do you want to run the web based Dashboard? (y/n): Y 
 ```
 ### Set a password for dashboard access:
 ```
-Set the password to access the Dashboard: 
+Set the password to access the Dashboard: input your password
 ```
 ### Add a custom session port for the web based dashboard or hit enter for port 8080:
 ```
@@ -54,6 +55,7 @@ What base directory should the node use (defaults to ~/.shardeum):  ENTER
 ### Open validator CLI
 ```
 cd
+```
 ```
 cd .shardeum
 ```
