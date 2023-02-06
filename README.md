@@ -87,7 +87,7 @@ Select tab  'Maintenance` select `Start Node`
 Claim [faucet](https://faucet-sphinx.shardeum.org/) (Input New address ERC-20)
 ```
 ```
-Select validator in dashboard, Select `Settings`
+Select 'validator' in dashboard, Select `Settings`
 ```
 ```
 Connect Metamask
