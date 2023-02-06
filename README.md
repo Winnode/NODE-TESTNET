@@ -4,13 +4,13 @@
 
 ## Referensi
 * [Website](https://www.shardeum.org/)
-* [Dokumen resmi](https://docs.shardeum.org/node/run/validator)
+* [Document](https://docs.shardeum.org/node/run/validator)
 * [RPC](https://docs.shardeum.org/Network/Endpoints#connect-wallet)
 * [Faucet](https://docs.shardeum.org/Faucet/Claim#shardeum-faucet-website)
 * [Discord](https://discord.com/invite/shardeum)
 
 
-### Spesifikasi Hardware :
+### Minimum Specification
 NODE  | CPU     | RAM      | SSD     |
 | ------------- | ------------- | ------------- | -------- |
 | Testnet | 4          | 8         | 250  |
