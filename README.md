@@ -59,7 +59,9 @@ cd
 ```
 cd .shardeum
 ```
+```
 ./shell.sh
+```
 ```
 operator-cli gui start
 ```
