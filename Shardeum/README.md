@@ -95,4 +95,12 @@ Connect Metamask
 ```
 'Add stake` Input SHM MInimum 10 SHM for Stake
 ```
-DONE
+```
+operator-cli start
+```
+```
+operator-cli stop
+```
+```
+operator-cli status
+```
