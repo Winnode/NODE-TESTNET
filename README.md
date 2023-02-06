@@ -1,7 +1,6 @@
-# NODE-TESTNET
-<p align="center">
- ![98940804](https://user-images.githubusercontent.com/96678356/216855197-3f91b220-61e7-4e12-8ab1-b75960cb6d24.png)
-</p>
+# SHARDEUM
+![98940804](https://user-images.githubusercontent.com/96678356/216855240-dc5c38ce-6789-4847-9337-412142b5b829.png)
+
 
 
 ### Spesifikasi Hardware :
