@@ -2,6 +2,13 @@
 
 ![98940804](https://user-images.githubusercontent.com/96678356/216855731-728a1322-d22a-411e-984a-1e6dd43c16e9.png)
 
+## Referensi
+* [Website](https://www.shardeum.org/)
+* [Dokumen resmi](https://docs.shardeum.org/node/run/validator)
+* [RPC](https://docs.shardeum.org/Network/Endpoints#connect-wallet)
+* [Faucet](https://docs.shardeum.org/Faucet/Claim#shardeum-faucet-website)
+* [Discord](https://discord.com/invite/shardeum)
+
 
 ### Spesifikasi Hardware :
 NODE  | CPU     | RAM      | SSD     |
@@ -65,7 +72,27 @@ cd .shardeum
 ```
 operator-cli gui start
 ```
-### Go to your web browser and go to:
+### Stake SHM
+Open Browser
 ```
 https://localhost:8080/
 ```
+```
+Input password
+```
+```
+Select tab  'Maintenance` select `Start Node`
+```
+```
+Claim [faucet](https://faucet-sphinx.shardeum.org/) (Input New address ERC-20)
+```
+```
+Select validator in dashboard, Select `Settings`
+```
+```
+Connect Metamask
+```
+```
+'Add stake` Input SHM MInimum 10 SHM for Stake
+```
+DONE
