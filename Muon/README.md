@@ -69,10 +69,13 @@ docker-compose up -d
 ```bash
 http://<server-ip>:8000/status
 ```
-
-Result look like
 ```bash
-{"address":"0x06A85356DCb5b307096726FB86A78c59D38e08ee","peerId":"Qma3GsJmB47xYuyahPZPSadh1avvxfyYQwk8R3UnFrQ6aP","managerContract":{"network":"bsctest","address":"0x2efB53c11FC935f6114B3fC37AaFa6a76B263a4E"},"shield":{"enable":false,"apps":[]},"addedToNetwork":false}
+Create New wallet & Request Faucet BSC Testnet
+https://testnet.bnbchain.org/faucet-smart
+```
+Result
+```bash
+{"address":"0xDE53563cf21D5E6257BE1Ec67eCCA63dEBXXXXXXX","peerId":"QmbtJLXPQUGiJfSnbAxJXW6HPQ4bhTCRBKufSFHaexxxxx","managerContract":{"network":"bsctest","address":"0x2efB53c11FC935f6114B3fC37AaFa6a76B263a4E"},"shield":{"enable":false,"apps":[]},"addedToNetwork":false}
 ```
 
 Visit -> https://alice.muon.net/join 
