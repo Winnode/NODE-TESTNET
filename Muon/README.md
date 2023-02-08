@@ -1,5 +1,5 @@
 
-# Guide Intsallation Node Validator Neutron Quark Tesnet
+# Guide Intsallation Node Validator Muon
 
 
 <p align="center">
@@ -101,13 +101,13 @@ example
   
 ![muon3](https://user-images.githubusercontent.com/65535542/213770172-54cd5744-506a-4eb8-a666-47e8f74dac3d.png)
   
-Enter Address and peerID, and then Add Node
+Input Node Address and peerID, and then Add Node
 ```bash
-Node Adress : address":"0xDE53563cf21D5E6257BE1Ec67eCCA63dEBXXXXXXX
-Peer ID : address":"QmbtJLXPQUGiJfSnbAxJXW6HPQ4bhTCRBKufSFHaexxxxx
+Node Adress : 0xDE53563cf21D5E6257BE1Ec67eCCA63dEBXXXXXXX
+Peer ID : QmbtJLXPQUGiJfSnbAxJXW6HPQ4bhTCRBKufSFHaexxxxx
 ```
   
-Please Wait...Load..data
+Please Wait......
 ```bash
 http://<server-ip>:8000/v1/?app=tss&method=test
 ```
@@ -117,12 +117,10 @@ If it is added correctly, you should receive a json response whose `success` is 
 {"success":true,"result":{"confirmed":true, ... }}
 ```
 
-![1](https://user-images.githubusercontent.com/96678356/217445890-3248d4d3-0874-463d-b88b-9d41824cfa93.PNG
+![1](https://user-images.githubusercontent.com/96678356/217445890-3248d4d3-0874-463d-b88b-9d41824cfa93.PNG)
 
 
 ## Remove Docker Muon
-
-Check ID Docker
 ```bash
 docker ps 
 sudo docker kill <id_docker_muon>
