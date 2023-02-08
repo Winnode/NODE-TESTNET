@@ -64,13 +64,13 @@ docker-compose build
 docker-compose up -d
 ```
 
-## If this is run successfully, the node's status can be viewed by opening the following address in your browser:
+## Paste In Browser
 
 ```bash
 http://<server-ip>:8000/status
 ```
-```bash
 Create New wallet & Request Faucet BSC Testnet
+```bash
 https://testnet.bnbchain.org/faucet-smart
 ```
 Result
@@ -97,16 +97,18 @@ Save output
 example
 ```bash
 
-{"address":"0x06A85356DCb5b307096726FB86A78c59D38e08ee","peerId":"Qma3GsJmB47xYuyahPZPSadh1avvxfyYQwk8R3UnFrQ6aP","managerContract":{"network":"bsctest","address":"0x2efB53c11FC935f6114B3fC37AaFa6a76B263a4E"},"shield":{"enable":false,"apps":[]},"addedToNetwork":false}
+{"address":"0xDE53563cf21D5E6257BE1Ec67eCCA63dEBXXXXXXX","peerId":"QmbtJLXPQUGiJfSnbAxJXW6HPQ4bhTCRBKufSFHaexxxxx","managerContract":{"network":"bsctest","address":"0x2efB53c11FC935f6114B3fC37AaFa6a76B263a4E"},"shield":{"enable":false,"apps":[]},"addedToNetwork":false}
 ```
   
 ![muon3](https://user-images.githubusercontent.com/65535542/213770172-54cd5744-506a-4eb8-a666-47e8f74dac3d.png)
   
 Enter Address and peerID, and then Add Node
-
-The fields Node Address and Peer Id are obtained from the node's status as explained above in "Running the Node". To test whether or not your node has successfully been added to the network, open the following link in your browser.
-
-Bagian ini emang lama jadi kudu sabar yak
+```bash
+Node Adress : address":"0xDE53563cf21D5E6257BE1Ec67eCCA63dEBXXXXXXX
+Peer ID : address":"QmbtJLXPQUGiJfSnbAxJXW6HPQ4bhTCRBKufSFHaexxxxx
+```
+  
+Please Wait...Load..data
 ```bash
 http://<server-ip>:8000/v1/?app=tss&method=test
 ```
