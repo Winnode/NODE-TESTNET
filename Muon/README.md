@@ -65,7 +65,6 @@ docker-compose up -d
 ```
 
 ## Paste In Browser
-
 ```bash
 http://<server-ip>:8000/status
 ```
@@ -118,16 +117,14 @@ If it is added correctly, you should receive a json response whose `success` is 
 {"success":true,"result":{"confirmed":true, ... }}
 ```
 
+![1](https://user-images.githubusercontent.com/96678356/217445890-3248d4d3-0874-463d-b88b-9d41824cfa93.PNG
+
+
 ## Remove Docker Muon
 
-Untuk liat ID Dockernya 
+Check ID Docker
 ```bash
 docker ps 
-```
-Terus 
-```bash
 sudo docker kill <id_docker_muon>
-```
-```bash
 sudo docker rm kill <id_docker_muon>
 ```
