@@ -7,7 +7,7 @@
 </p>
 
 ## Referensi
-* [DOC]([https://www.shardeum.org/](https://docs.muon.net/muon-network/muon-nodes/joining-the-testnet-alice/faq-for-alice#when-i-check-the-status-of-my-node-on-the-dashboard-why-do-i-see-loading-or-offline)
+* [DOC](https://docs.muon.net/muon-network/muon-nodes/joining-the-testnet-alice/faq-for-alice#when-i-check-the-status-of-my-node-on-the-dashboard-why-do-i-see-loading-or-offline)
 
 * [DISCORD](https://discord.gg/muon)
 
@@ -121,10 +121,21 @@ If it is added correctly, you should receive a json response whose `success` is 
 ```bash
 {"success":true,"result":{"confirmed":true, ... }}
 ```
-
+Restart
+```bash 
+docker-compose restart
+```
 ![1](https://user-images.githubusercontent.com/96678356/217445890-3248d4d3-0874-463d-b88b-9d41824cfa93.PNG)
 
-
+## Backup
+```bash 
+docker cp muon-node:/usr/src/muon-node-js/.env ./backup.env
+```
+## Restore
+```bash 
+docker cp backup.env muon-node:/usr/src/muon-node-js/.env
+docker-compose restart
+```
 ## Remove Docker Muon
 ```bash
 docker ps 
