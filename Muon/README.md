@@ -1,10 +1,7 @@
 
 # Intsallation Node Validator Muon
 
-
-<p align="center">
-  <img style="margin: auto; border-radius: 50%;" src="https://user-images.githubusercontent.com/65535542/213711680-fd483b03-6635-4f4d-8156-a1a8be79a126.png">
-</p>
+![muon](https://user-images.githubusercontent.com/96678356/217448905-77527234-2e7f-4229-be93-6806c058aa80.png)
 
 ## Referensi
 * [DOC](https://docs.muon.net/muon-network/muon-nodes/joining-the-testnet-alice/faq-for-alice#when-i-check-the-status-of-my-node-on-the-dashboard-why-do-i-see-loading-or-offline)
