@@ -1,12 +1,17 @@
 
-# Guide Intsallation Node Validator Muon
+# Intsallation Node Validator Muon
 
 
 <p align="center">
   <img style="margin: auto; border-radius: 50%;" src="https://user-images.githubusercontent.com/65535542/213711680-fd483b03-6635-4f4d-8156-a1a8be79a126.png">
 </p>
 
-## Requirements Hardware
+## Referensi
+* [DOC]([https://www.shardeum.org/](https://docs.muon.net/muon-network/muon-nodes/joining-the-testnet-alice/faq-for-alice#when-i-check-the-status-of-my-node-on-the-dashboard-why-do-i-see-loading-or-offline)
+
+* [DISCORD](https://discord.gg/muon)
+
+## Minimum Requirements
 
 - 2vCPU 
 - 4GB RAM 
