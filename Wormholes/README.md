@@ -3,6 +3,7 @@
 </p>
 
 # Update Wormholer v.0.12.0
+Especially for new VPS, this method does not apply to updates on previous VPS where there is already a worm node
 
 ### Spesifikasi Hardware :
 NODE  | CPU     | RAM      | SSD     |
