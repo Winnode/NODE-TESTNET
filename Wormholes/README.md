@@ -5,6 +5,8 @@
 # Update Wormholer v.0.12.0
 Especially for new VPS, this method does not apply to updates on previous VPS where there is already a worm node
 
+[NEW REGISTER](https://twitter.com/WormholesChain/status/1622533966782955520?t=Vr_iyHqOEDsPTeUUiBhkLQ&s=19)
+
 ### Spesifikasi Hardware :
 NODE  | CPU     | RAM      | SSD     |
 | ------------- | ------------- | ------------- | -------- |
