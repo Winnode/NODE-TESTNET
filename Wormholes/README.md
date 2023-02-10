@@ -50,6 +50,10 @@ wget -O monitor.sh https://raw.githubusercontent.com/an-node/NODE-TESTNET/main/W
 
 ![Result](https://user-images.githubusercontent.com/96678356/218034065-09a84bf4-64c9-472d-b96c-4e760ca8f48c.PNG)
 
+### Stake ERB in Wallet https://www.limino.com/#/wallet
+- Select Become Validator
+- 70000 ERB
+
 ### Delete Node
 ```
 systemctl stop wormholesd
