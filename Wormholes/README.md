@@ -51,8 +51,16 @@ wget -O monitor.sh https://raw.githubusercontent.com/an-node/NODE-TESTNET/main/W
 ![Result](https://user-images.githubusercontent.com/96678356/218034065-09a84bf4-64c9-472d-b96c-4e760ca8f48c.PNG)
 
 ### Stake ERB in Wallet https://www.limino.com/#/wallet
+- More Setting
 - Select Become Validator
 - Stake 70000 ERB
+- Monitor Stake in https://www.wormholesscan.com/
+
+### Additional If have 700 ERB Stake SNFT in Wallet https://www.limino.com/#/wallet
+- More Setting
+- Select Marketplace Management
+- Select Staking & Redemtion
+- Stake 700 ERB
 - Monitor Stake in https://www.wormholesscan.com/
 
 ### Delete Node
