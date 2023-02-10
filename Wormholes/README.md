@@ -52,7 +52,7 @@ wget -O monitor.sh https://raw.githubusercontent.com/an-node/NODE-TESTNET/main/W
 
 ### Stake ERB in Wallet https://www.limino.com/#/wallet
 - Select Become Validator
-- 70000 ERB
+- Stake 70000 ERB
 
 ### Delete Node
 ```
