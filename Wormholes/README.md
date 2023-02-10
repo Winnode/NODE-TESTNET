@@ -2,49 +2,50 @@
   <img width="270" height="auto" src="https://user-images.githubusercontent.com/108969749/201534786-9fd914e1-fe09-456f-b56a-4082da2ae687.jpeg">
 </p>
 
+# Update Wormholer v.0.12.0
 
 ### Spesifikasi Hardware :
 NODE  | CPU     | RAM      | SSD     |
 | ------------- | ------------- | ------------- | -------- |
 | Testnet | 4          | 8         | 120  |
 
-
-### Auto install
+### Stop Docker & Delete
 ```
-wget -O wormholes.sh https://github.com/an-node/NODE-TESTNET/blob/main/Wormholes/wormholes.sh && chmod +x wormholes.sh && ./wormholes.sh
+docker stop wormholes && docker rm wormholes && docker rmi wormholestech/wormholes:v1
 ```
-### Monitoring
+### Delete worm sh
 ```
-wget -O wormholes.sh https://github.com/an-node/NODE-TESTNET/blob/main/Wormholes/monitor.sh && chmod +x wormholes.sh && ./wormholes.sh
+rm -rf wormholes_install.sh
 ```
-### Next ? Become A Validator
-` membutuhkan 70k ERB untuk menjadi validator `
-
-[Validator](https://wormholes.com/docs/Install/stake/index.html)
-
-### Node Info
- * check versi node
+### Delete Folder
 ```
-wormholes version
+rm -rf /wm/
 ```
- * check logs node
+### Update Worm
 ```
-journalctl -fu wormholesd -o cat
+wget -O wormholes_install.sh https://docker.wormholes.com/wormholes_install.sh && chmod +x wormholes_install.sh && ./wormholes_install.sh
 ```
-  * check private key
+### Input Private Key
 ```
-cat .wormholes/wormholes/nodekey
+input private key
 ```
-`oh iya ini harus edit privatekey secara manual, hapus dan pastekan private key lalu restart node`
+### Check Version
 ```
-nano .wormholes/wormholes/nodekey
+docker exec -it wormholes ./wormholes version|grep "Version"|grep -v go
 ```
- * restart node
+### Version V0.12.0
 ```
-systemctl restart wormholesd
+wormholes v0.12.0
 ```
-### Hapus Node
-
+### RUN
+```
+./monitor.sh
+```
+OR 
+```
+wget -O monitor.sh https://raw.githubusercontent.com/dwentz-inc/node-testnet/main/wormholeschain/monitor.sh && chmod +x monitor.sh && ./monitor.sh
+```
+### Delete Node
 ```
 systemctl stop wormholesd
 systemctl disable wormholesd
