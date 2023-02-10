@@ -33,7 +33,7 @@ input private key
 ```
 docker exec -it wormholes ./wormholes version|grep "Version"|grep -v go
 ```
-### Version V0.12.0
+### Result
 ```
 wormholes v0.12.0
 ```
