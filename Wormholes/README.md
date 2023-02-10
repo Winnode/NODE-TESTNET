@@ -46,6 +46,9 @@ OR
 ```
 wget -O monitor.sh https://raw.githubusercontent.com/an-node/NODE-TESTNET/main/Wormholes/monitor.sh && chmod +x monitor.sh && ./monitor.sh
 ```
+### Result
+![Result](https://user-images.githubusercontent.com/96678356/218032754-d2bcfffa-7bc5-4fdb-a10a-86d87058f22a.PNG)
+
 ### Delete Node
 ```
 systemctl stop wormholesd
