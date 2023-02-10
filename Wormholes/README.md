@@ -2,7 +2,7 @@
   <img width="270" height="auto" src="https://user-images.githubusercontent.com/108969749/201534786-9fd914e1-fe09-456f-b56a-4082da2ae687.jpeg">
 </p>
 
-# Update Wormholer v.0.12.0
+# Update Wormholes v.0.12.0
 Especially for new VPS, this method does not apply to updates on previous VPS where there is already a worm node
 
 [NEW REGISTER](https://twitter.com/WormholesChain/status/1622533966782955520?t=Vr_iyHqOEDsPTeUUiBhkLQ&s=19)
