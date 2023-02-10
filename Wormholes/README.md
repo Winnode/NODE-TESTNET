@@ -44,7 +44,7 @@ wormholes v0.12.0
 ```
 OR 
 ```
-wget -O monitor.sh https://github.com/an-node/NODE-TESTNET/blob/main/Wormholes/monitor.sh && chmod +x monitor.sh && ./monitor.sh
+wget -O monitor.sh https://raw.githubusercontent.com/an-node/NODE-TESTNET/main/Wormholes/monitor.sh && chmod +x monitor.sh && ./monitor.sh
 ```
 ### Delete Node
 ```
