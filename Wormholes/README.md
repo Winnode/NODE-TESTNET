@@ -47,7 +47,8 @@ OR
 wget -O monitor.sh https://raw.githubusercontent.com/an-node/NODE-TESTNET/main/Wormholes/monitor.sh && chmod +x monitor.sh && ./monitor.sh
 ```
 ### Result
-![Result](https://user-images.githubusercontent.com/96678356/218032754-d2bcfffa-7bc5-4fdb-a10a-86d87058f22a.PNG)
+
+![Result](https://user-images.githubusercontent.com/96678356/218034065-09a84bf4-64c9-472d-b96c-4e760ca8f48c.PNG)
 
 ### Delete Node
 ```
