@@ -74,5 +74,9 @@ docker logs -f ev
 ![2](https://user-images.githubusercontent.com/96678356/218298346-cb84ea0c-62cf-4800-ae10-b0a3fc8d4d76.PNG)
 
 ### Check Wallet In [EXPLORER](https://metrics.elixir.finance/)
+- CTRL F & CTRL V wallet
+![4](https://user-images.githubusercontent.com/96678356/218298686-f56a58db-f597-4ec3-8e55-6e992c14f6cb.png)
+
+### DONE
 
 ### Wait for Update
