@@ -36,14 +36,8 @@ nano Dockerfile
 ```
 ### Input Wallet & PrivateKey
 
-### Update Worm
-```
-wget -O wormholes_install.sh https://docker.wormholes.com/wormholes_install.sh && chmod +x wormholes_install.sh && ./wormholes_install.sh
-```
-### Input Private Key
-```
-### Ctrl X + y
-```
+### Save Ctrl X + y
+
 ### Build Screen 
 ```
 apt install screen -y
