@@ -1,5 +1,5 @@
 <p align="center">
-![3](https://user-images.githubusercontent.com/96678356/218298439-558be464-db55-49d8-8dd0-9797589bc1db.JPG)
+[3](https://user-images.githubusercontent.com/96678356/218298439-558be464-db55-49d8-8dd0-9797589bc1db.JPG)
 </p>
 
 # Install Validator Elixir Protocol
