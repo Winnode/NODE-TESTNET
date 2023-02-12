@@ -1,12 +1,15 @@
 <p align="center">
-  <img width="270" height="auto" src="https://user-images.githubusercontent.com/108969749/201534786-9fd914e1-fe09-456f-b56a-4082da2ae687.jpeg">
+![3](https://user-images.githubusercontent.com/96678356/218298439-558be464-db55-49d8-8dd0-9797589bc1db.JPG)
 </p>
 
 # Install Validator Elixir Protocol
 
 [WEBSITE](https://elixir.finance/)
+
 [DOCS](https://docs.elixir.finance/)
+
 [EXPLORER](https://metrics.elixir.finance/)
+
 [DISCORD](https://discord.gg/Zxu9xhEN)
 
 ### Spesifikasi Hardware :
@@ -14,7 +17,7 @@ NODE  | CPU     | RAM      | SSD     |
 | ------------- | ------------- | ------------- | -------- |
 | Testnet | 2          | 4         | 50  |
 
-### Install Docker [Skip if you previously installed docker on a different node]
+### Install Docker [Skip if previously installed docker on a different node]
 ```
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
 echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \
@@ -65,5 +68,11 @@ docker build . -f Dockerfile -t elixir-validator
 docker logs -f ev
 ```
 ### Register Wallet to [DISCORD](https://discord.gg/Zxu9xhEN)
+![1](https://user-images.githubusercontent.com/96678356/218298328-2d190c0f-5332-403f-9b65-7617d22b160c.jpg)
 
+### Suceesss Register
+![2](https://user-images.githubusercontent.com/96678356/218298346-cb84ea0c-62cf-4800-ae10-b0a3fc8d4d76.PNG)
 
+### Check Wallet In [EXPLORER](https://metrics.elixir.finance/)
+
+### Wait for Update
