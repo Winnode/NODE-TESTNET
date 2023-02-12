@@ -13,9 +13,9 @@
 [DISCORD](https://discord.gg/Zxu9xhEN)
 
 ### Spesifikasi Hardware :
-NODE  | CPU     | RAM      | SSD     |
-| ------------- | ------------- | ------------- | -------- |
-| Testnet | 2          | 4         | 50  |
+NODE  | CPU     | RAM      | SSD     | OS     |
+| ------------- | ------------- | ------------- | -------- | -------- |
+| Testnet | 2          | 4         | 50  | Ubuntu 20.04 LTS  |
 
 ### Install Docker [Skip if previously installed docker on a different node]
 ```
