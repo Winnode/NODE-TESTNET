@@ -81,6 +81,7 @@ docker logs -f ev
 ```
 screen -Rd elixir
 ```
+```
 docker kill ev
 docker rm ev
 docker pull elixirprotocol/validator:testnet-1
