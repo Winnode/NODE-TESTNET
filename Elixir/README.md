@@ -86,7 +86,7 @@ docker logs -f ev
 
 ### Try Aagin If VALID ORDER = 0 [EXPLORER](https://metrics.elixir.finance/)
 
-#### stop screen - Rd elixir
+#### Open screen
 ```
 screen -Rd elixir
 ```
