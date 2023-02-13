@@ -76,6 +76,10 @@ docker logs -f ev
 ![4](https://user-images.githubusercontent.com/96678356/218298686-f56a58db-f597-4ec3-8e55-6e992c14f6cb.png)
 
 ### Try Aagin If VALID ORDER = 0 [EXPLORER](https://metrics.elixir.finance/)
+
+#### stop screen - Rd elixir
+```
+screen -Rd elixir
 ```
 docker kill ev
 docker rm ev
