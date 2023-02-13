@@ -17,6 +17,15 @@ NODE  | CPU     | RAM      | SSD     | OS     |
 | ------------- | ------------- | ------------- | -------- | -------- |
 | ELixir | 2          | 4         | 50  | Ubuntu 20.04 LTS  |
 
+### Open Port
+```
+apt install ufw -y
+ufw allow ssh
+ufw allow https
+ufw allow http
+ufw allow 17684
+ufw enable
+```
 ### Install Docker [Skip if previously installed docker on a different node]
 ```
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
