@@ -75,6 +75,10 @@ docker logs -f ev
 - CTRL F & CTRL V wallet
 ![4](https://user-images.githubusercontent.com/96678356/218298686-f56a58db-f597-4ec3-8e55-6e992c14f6cb.png)
 
-### DONE
-
-### Wait for Update
+### Try Aagin If 'VALID ORDER = 0'
+```
+docker kill ev
+docker rm ev
+docker pull elixirprotocol/validator:testnet-1
+docker build . -f Dockerfile -t elixir-validator
+```
