@@ -92,7 +92,7 @@ If it's syncron run`start.sh`
 
 ## Troubleshoot
 
-### Erorr :  'FileNotFoundError:[Errno 2]' 'No such file or directory:./blockchain/config/config.ini'
+### Error : FileNotFoundError:[Errno] No such file or directory:./blockchain/config/config.ini
 
 Indication :  `libssl 1.1` not installed properly
 
@@ -120,3 +120,12 @@ pidof nodine
 ```
 
 Run Again
+
+## Delete Node
+  ```console
+  cd $HOME/inery-node/inery.setup/master.node
+  ./stop.sh
+ pidof nodine
+ cd $HOME
+ rm -rf inery-node 
+ ```
