@@ -85,10 +85,34 @@ NODE  | CPU     | RAM      | SSD     | OS     |
   tail -f master.node/blockchain/nodine.log
   ```
 
-If it's syncron run`start.sh`
+* If it's syncron run`start.sh`
 ```console
 ./master.node/start.sh
 ```
+
+* Register to produser
+  ```console
+  cline master bind <AccountName> <PublicKeyAccount> <IP_Node>:9010
+  ```
+  Delete `<>`
+
+  If Message Error :  `wallet not unlocked` 
+
+  ```console
+  cline wallet unlock -n <NameWallet> -p <PasswordWallet>
+  ```
+
+* Allow to be producer
+  ```console
+  cline master approve <AccountName>
+  ```
+
+  If Message Error : `unable to find key` required to request a faucet again on the dashboard
+
+* Check if the account has produced a block
+  ```console
+  cline get account <AccountName>
+  ```
 
 ## Troubleshoot
 
