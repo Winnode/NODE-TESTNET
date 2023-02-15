@@ -9,6 +9,4 @@
 > 
 > Finish Task
 > 
-> Request Faucet
-> 
 > Done
