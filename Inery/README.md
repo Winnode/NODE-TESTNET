@@ -66,7 +66,7 @@ NODE  | CPU     | RAM      | SSD     | OS     |
   nano tools/config.json
   ```
   Cari `MASTER_ACCOUNT` lalu ubah value seperti berikut
-  | Informasi | Keterangan |
+  | Variable | Data |
   |-----------|------------|
   |NAME|Inery Account|
   |PUBLIC_KEY|Public Account|
@@ -90,104 +90,13 @@ If it's syncron run`start.sh`
 ./master.node/start.sh
 ```
 
-
-## Perintah berguna
-
-### Mengecek log
-
-```
-tail -f blockchain/nodine.log
-```
-
-> pastikan anda sudah berada di folder `master.node` atau `lite.node`
-
-### Mengecek informasi blockchain
-
-```
-cline get info
-```
-
-### Mengecek informasi akun
-
-```
-cline get account NAMA_AKUN_YANG_INGIN_DICEK
-```
-
-### Mengecek transaksi dari blockchain
-
-```
- cline get transaction TX_ID
-```
-
-### Membuat dompet baru
-
-```
-cline wallet create --name NAMA_DOMPET --file NAMA_FILE.txt
-```
-
-> Salin sandi anda ke tempat yang aman, karena ada bug yang mengakibatkan sandi didalam file .txt hilang, yang mengakibatkan dompet tidak dapat dibuka
-
-### Membuka dompet yang terkunci
-
-```
-cline wallet unlock --name NAMA_DOMPET --password KATA_SANDI_DOMPET
-```
-
-### Membuka dompet yang sudah terbuka
-
-```
-cline wallet open --name NAMA_DOMPET
-```
-
-### Mengimpor private key
-
-```
-cline wallet import --name NAMA_DOMPET --private-key PRIVATE_KEY
-```
-
-> Sebelum mengimpor private key, pastikan bahwa dompet yang anda gunakan sudah terbuka
-
-### Melihat list dompet
-
-```
-cline wallet list
-```
-
-> `*` pada dompet menandakan bahwa dompet terbuka
-
-### Melihat public key dari dompet yang terbuka
-
-```
-cline wallet keys
-```
-
-### Melihat private key dari dompet yang terbuka
-
-```
- cline wallet private_keys --name NAMA_DOMPET --password KATA_SANDI_DOMPET
-```
-
-### Transfer token
-
-```
- cline transfer ALAMAT_PENGIRIM ALAMAT_PENERIMA JUMLAH_YANG_AKAN_DITRANSFER
-```
-
-
 ## Troubleshoot
 
-Ada beberapa masalah yang mungkin timbul saat proses pemasangan dan menhjalankan node, di bagian ini saya akan memberikan solusi dari masalah-masalah tersebut
+Erorr : FileNotFoundError: [Errno 2] No such file or directory: './blockchain/config/config.ini'
 
-### Saya lupa kata sandi dompet saya, bagaimana saya membuka dompet saya
+Indication :  `libssl 1.1` not installed properly
 
-Jika anda lupa kata sandi dompet anda, maka dompet anda tidak akan bisa dibuka kembali. Solusinya adalah membuat dompet baru dan memasukan `private key` yang sama seperti sebelumnya
-
-Untuk cara membuat dompet baru bisa anda lihat di bagian `Perintah berguna`, kali ini jangan lupa untuk menyimpan sandi anda
-
-### FileNotFoundError: [Errno 2] No such file or directory: './blockchain/config/config.ini'
-
-Jika pesan error ini muncul kemungkinan karena `libssl 1.1` tidak terpasang di server anda, untuk memasangnya silahkan gunakan perintah dibawah
-
+Solution : 
 ```
 wget http://nz2.archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.1f-1ubuntu2.16_amd64.deb
 sudo dpkg -i libssl1.1_1.1.1f-1ubuntu2.16_amd64.deb
