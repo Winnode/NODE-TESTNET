@@ -1,10 +1,9 @@
 
 # Task 1
 
-Task : Master Approval
+> Task : Master Approval
 
-Reward : 800 INR
-
+> Reward : 800 INR
 
 #### Login to [Dashboard](https://testnet.inery.io/dashboard)
 
