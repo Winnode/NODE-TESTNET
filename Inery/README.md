@@ -6,6 +6,8 @@
 
 > [Docs](https://docs.inery.io/docs)
 
+> [Register](https://testnet.inery.io/)
+
 > [Portal](https://testnet.inery.io/)
 
 > [Explorer Inary](https://explorer.inery.io/ "Explorer Inary")
@@ -91,6 +93,8 @@ NODE  | CPU     | RAM      | SSD     | OS     |
 ```console
 ./master.node/start.sh
 ```
+
+* Request Faucet in [Dashboard](https://testnet.inery.io/dashboard/)
 
 * Register to produser
   ```console
