@@ -2,12 +2,10 @@
   <img height="50" height="auto" src="https://user-images.githubusercontent.com/38981255/184088981-3f7376ae-7039-4915-98f5-16c3637ccea3.PNG">
 </p>
 
-# Tutorial Become a Master Node
+# Install Become a Master Node
 
-Dokumen Official :
-> [Node Lite & Master](https://docs.inery.io/docs/category/lite--master-nodes)
-
-Explorer :
+> [DOCS](https://docs.inery.io/docs)
+> 
 > [Explorer Inary](https://explorer.inery.io/ "Explorer Inary")
 
 ## Perangkat Keras
