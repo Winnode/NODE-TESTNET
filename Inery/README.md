@@ -4,8 +4,8 @@
 
 # Install Become a Master Node
 
-> [DOCS](https://docs.inery.io/docs)
-> 
+> [Docs](https://docs.inery.io/docs)
+> [Portal](https://testnet.inery.io/)
 > [Explorer Inary](https://explorer.inery.io/ "Explorer Inary")
 
 ## Minimum Spec Hardware :
