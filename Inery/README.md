@@ -6,8 +6,6 @@ If you haven't registered, please register [here](https://testnet.inery.io/)
 
 > [Docs](https://docs.inery.io/docs)
 
-> [Register](https://testnet.inery.io/)
-
 > [Portal](https://testnet.inery.io/)
 
 > [Explorer Inary](https://explorer.inery.io/ "Explorer Inary")
