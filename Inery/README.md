@@ -2,13 +2,15 @@
   <img height="50" height="auto" src="https://user-images.githubusercontent.com/38981255/184088981-3f7376ae-7039-4915-98f5-16c3637ccea3.PNG">
 </p>
 
-If you haven't registered, please register [here](https://testnet.inery.io/)
+
 
 > [Docs](https://docs.inery.io/docs)
 
 > [Portal](https://testnet.inery.io/)
 
 > [Explorer Inary](https://explorer.inery.io/ "Explorer Inary")
+
+If you haven't registered, please register [here](https://testnet.inery.io/)
 
 # Install Become a Master Node
 
