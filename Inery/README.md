@@ -5,7 +5,9 @@
 # Install Become a Master Node
 
 > [Docs](https://docs.inery.io/docs)
+
 > [Portal](https://testnet.inery.io/)
+
 > [Explorer Inary](https://explorer.inery.io/ "Explorer Inary")
 
 ## Minimum Spec Hardware :
@@ -113,6 +115,8 @@ NODE  | CPU     | RAM      | SSD     | OS     |
   ```console
   cline get account <AccountName>
   ```
+
+Goto [TASK1](https://github.com/an-node/NODE-TESTNET/tree/main/Inery/Task1)
 
 ## Troubleshoot
 
