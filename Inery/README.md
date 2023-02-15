@@ -92,8 +92,7 @@ If it's syncron run`start.sh`
 
 ## Troubleshoot
 
-Erorr :  'FileNotFoundError:[Errno 2]'
-          'No such file or directory:./blockchain/config/config.ini'
+### Erorr :  'FileNotFoundError:[Errno 2]' 'No such file or directory:./blockchain/config/config.ini'
 
 Indication :  `libssl 1.1` not installed properly
 
@@ -103,20 +102,21 @@ wget http://nz2.archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.1f-1
 sudo dpkg -i libssl1.1_1.1.1f-1ubuntu2.16_amd64.deb
 ```
 
-### net_plugin::plugin_startup failed to bind to port 9010
+### Erorr : net_plugin::plugin_startup failed to bind to port 9010
 
-Jika pesan error ini muncul maka penyebabnya karena `nodine` masinh berjalan di latar belakang, solusinya adalah mematikan `nodine`. Anda bisa menggunakan perintah dibawah untuk mematikan `nodine`
+Indication : noding keeps running in the background
 
+Solution : 
 ```
 pidof nodine
 
 pidkill -9 <pid>
 ```
 
-Untuk memastikan bahwa `nodine` sudah berhenti, anda bisa menggunakan perintah ini
+Check Again
 
 ```
 pidof nodine
 ```
 
-Setelah memastikan `nodine` benar-benar berhenti, anda dapat menjalankan node lagi
+Run Again
