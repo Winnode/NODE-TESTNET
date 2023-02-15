@@ -11,7 +11,7 @@
 ## Minimum Spec Hardware :
 NODE  | CPU     | RAM      | SSD     | OS     |
 | ------------- | ------------- | ------------- | -------- | -------- |
-| Inery | 4          | 8         | 50  | Ubuntu 20.04 LTS  |
+| Inery | 4          | 8         | 250  | Ubuntu 20.04 LTS  |
 
 
 ## Update Inery-node
