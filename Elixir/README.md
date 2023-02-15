@@ -96,7 +96,7 @@ docker rm ev
 docker pull elixirprotocol/validator:testnet-1
 docker build . -f Dockerfile -t elixir-validator
 ```
-### RUN 
+### Run Again
 ```
 docker run -d --restart unless-stopped --name ev elixir-validator
 ```
@@ -105,4 +105,4 @@ docker run -d --restart unless-stopped --name ev elixir-validator
 docker logs -f ev
 ```
 CTRL a+d
-```
+
