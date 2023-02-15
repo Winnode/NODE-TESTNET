@@ -18,7 +18,7 @@ NODE  | CPU     | RAM      | SSD     | OS     |
 | Inery | 4          | 8         | 250  | Ubuntu 20.04 LTS  |
 
 
-## Update Inery-node
+## Update Inery-node [If you haven't run node inery before skip to step Download Inery node]
 
 * Stop Node
   ```console
