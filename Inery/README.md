@@ -8,54 +8,45 @@
 > 
 > [Explorer Inary](https://explorer.inery.io/ "Explorer Inary")
 
-## Perangkat Keras
+## Minimum Spec Hardware :
+NODE  | CPU     | RAM      | SSD     | OS     |
+| ------------- | ------------- | ------------- | -------- | -------- |
+| Inery | 4          | 8         | 50  | Ubuntu 20.04 LTS  |
 
-|  Komponen |  Persyaratan Minimum |
-| ------------ | ------------ |
-| CPU  | Intel Core i7-8700 Hexa-Core  |
-| RAM | DDR4 64 GB  |
-| Penyimpanan  | 2x1 TB NVMe SSD |
-| koneksi | Port 1 Gbit/dtk |
-
-## Perangkat Lunak
-
-|Komponen | Persyaratan Minimum |
-| ------------ | ------------ |
-| OS |  Ubuntu 18.04 atau lebih tinggi  | 
 
 ## Update Inery-node
 
-Karena ada beberapa binaries yang di update oleh dev Inery jadi kita perlu update nodenya
-
-Ikuti langkah-langkah berikut
-
-* Hentikan node
+* Stop Node
   ```console
   cd $HOME/inery-node/inery.setup/master.node
   ./stop.sh
   ```
-  Cek apakah node sudah berhenti
+  Check 
   ```console
   pidof nodine
   ```
+    Execute Stop 
+  ```console
+  pidof -9 <pid>
+  ```
 
-* Hapus Inery node
+* Delete Folder Inery node
   ```console
   cd $HOME
   rm -rf inery-node
   ```
 
-* Download Inery node versi terbaru
+* Download Inery node
   ```console
    git clone  https://github.com/inery-blockchain/inery-node
   ```
 
-* Masuk ke folder `inery.setup`
+* Goto Folder `inery.setup`
   ```console
    cd inery-node/inery.setup
   ```
 
-* Ubah `ine.py` menjadi executable
+* executable `ine.py`
   ```console
   chmod +x ine.py
   ```
@@ -70,89 +61,34 @@ Ikuti langkah-langkah berikut
   source $HOME/.bashrc
   ```
 
-* Ubah konfigurasi
+* Config Edit
   ```console
   nano tools/config.json
   ```
   Cari `MASTER_ACCOUNT` lalu ubah value seperti berikut
   | Informasi | Keterangan |
   |-----------|------------|
-  |NAME|Isi dengan nama akun anda|
-  |PUBLIC_KEY|Isi dengan public key anda|
-  |PRIVATE_KEY|Isi dengan private key anda|
-  |PEER_ADDRESS|Di bagian IP ganti dengan IP VPS anda|
+  |NAME|Inery Account|
+  |PUBLIC_KEY|Public Account|
+  |PRIVATE_KEY|Privaet Account|
+  |PEER_ADDRESS|127.0.0.1:9010|
 
-  Lalu simpan konfigurasi dengan menekan <kbd>CTRL</kbd>+<kbd>x</kbd>+<kbd>y</kbd>
+ Save <kbd>CTRL</kbd>+<kbd>x</kbd>+<kbd>y</kbd>
 
-* Jalankan node
+* Run node
   ```console
   ./ine.py --master
   ```
 
-* Cek log node
+* Check log node
   ```console
   tail -f master.node/blockchain/nodine.log
   ```
 
-Jika node sudah tersinkronisasi jalankan script `start.sh`
+If it's syncron run`start.sh`
 ```console
 ./master.node/start.sh
 ```
-
-Lalu daftar menjadi produser blok
-
-* Daftarkan akun menjadi produser
-  ```console
-  cline master bind <NAMA_AKUN> <PUBLIC_KEY_AKUN> <IP_VPS>:9010
-  ```
-
-  Hapus `<>` dan ganti sesuai petunjuk
-
-  Jika terjadi error `wallet not unlocked` maka anda harus membuka dompet dulu
-
-  ```console
-  cline wallet unlock -n <NAMA_DOMPET> -p <PASSWORD_DOMPET>
-  ```
-
-* Izinkan akun sebagai produser
-  ```console
-  cline master approve <NAMA_AKUN>
-  ```
-
-  Jika terjadi error `unable to find key` maka anda harus claim faucet lagi, lalu ulangi perintah diatas 
-
-* Cek apakah akun sudah memproduksi blok
-  ```console
-  cline get account <NAMA_AKUN>
-  ```
-
-  Jika muncul seperti ini di terminal maka artinya akun telah memproduksi blok
-
-  ```console
-  created: 2022-11-29T09:59:25.500
-  permissions:
-       owner     1:    1 INE76WN7KvNS35HCXjCVUGUwoh2217KgAZpsD4eu6vM9CYFbkJWLo
-          active     1:    1 INE76WN7KvNS35HCXjCVUGUwoh2217KgAZpsD4eu6vM9CYFbkJWLo
-  memory:
-       quota:     1.001 MiB    used:     5.062 KiB
-  
-  net bandwidth:
-       staked:          1.0000 INR           (total stake delegated from account to self)
-       delegated:       2.0000 INR           (total staked delegated to account from others)                                                                                           used:             3.026 KiB
-       available:        32.32 GiB                                                             limit:            32.32 GiB                                                                                                                                                cpu bandwidth:
-       staked:          1.0000 INR           (total stake delegated from account to self)
-       delegated:       2.0000 INR           (total staked delegated to account from others)
-       used:             27.15 ms
-       available:        1.839 hr                                                              limit:            1.839 hr
-
-  INR balances:
-       liquid:        50000.0000 INR
-       staked:            2.0000 INR
-       unstaking:         0.0000 INR
-       total:         50002.0000 INR                                                      
-  producers:
-       <NAMA_AKUNMU>
-  ```
 
 
 ## Perintah berguna
