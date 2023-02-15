@@ -92,7 +92,7 @@ If it's syncron run`start.sh`
 
 ## Troubleshoot
 
-Erorr : FileNotFoundError: [Errno 2] No such file or directory: './blockchain/config/config.ini'
+Erorr : 'FileNotFoundError: [Errno 2] No such file or directory: './blockchain/config/config.ini'
 
 Indication :  `libssl 1.1` not installed properly
 
