@@ -21,7 +21,7 @@ NODE  | CPU     | RAM      | SSD     | OS     |
   ```console
 wget -O setup_moipod_indus.sh https://run-indus.moi.technology && chmod +x setup_moipod_indus.sh && bash setup_moipod_indus.sh
   ```
-Wait for it to finish
+'Wait for it to finish'
 
 ## Download Binary using cURL 
   ```console
