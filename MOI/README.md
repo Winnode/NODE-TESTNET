@@ -1,5 +1,5 @@
 <p align="center">
-![moi-logo](https://user-images.githubusercontent.com/96678356/219348837-5ee4b69d-071e-43b5-a843-d8f494fb6c26.svg)
+![eO27Z4sz_400x400](https://user-images.githubusercontent.com/96678356/219349595-d1193c7e-5543-4bea-9113-8606ee7ad15f.jpg)
 </p>
 
 
