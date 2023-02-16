@@ -32,7 +32,10 @@ sudo curl -o moipod https://validator.moi.technology/moipod/v0.5.1/moipod.linux 
 
 * Step 1: Install NodeJS
   ```console
+    ```
+      ```
 apt update 
+  ```
 apt install Node.js
 apt install npm 
   ``
