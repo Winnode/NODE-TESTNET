@@ -66,3 +66,5 @@ sudo curl -o moipod https://validator.moi.technology/moipod/v0.5.1/moipod.linux 
   ```
 
 ## [Check Validator](https://iome.ai/validators)
+Incentive will be visible after 24 hours indashboard
+
