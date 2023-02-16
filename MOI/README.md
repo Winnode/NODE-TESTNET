@@ -60,5 +60,5 @@ sudo curl -o moipod https://validator.moi.technology/moipod/v0.5.1/moipod.linux 
   ./moipod --username <moi-id username> --password <moi-id password> --nodepass <node password> --deregister
   ```
 ## [Check Validator
-    [Check](https://iome.ai/validators)
-    Incentive will be visible after 24 hours indashboard
+   [Check](https://iome.ai/validators)
+   Incentive will be visible after 24 hours indashboard
