@@ -5,7 +5,7 @@
 
 > [Portal](https://moi.technology/indus/)
 
-> [Discord]((https://discord.gg/eKN2gXcS)
+> [Discord](https://discord.gg/eKN2gXcS)
 
 
 * [Register](https://iome.ai/signup) 
