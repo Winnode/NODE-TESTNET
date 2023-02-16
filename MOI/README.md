@@ -26,12 +26,12 @@ wget -O setup_moipod_indus.sh https://run-indus.moi.technology && chmod +x setup
 * Change Password
 * Wait for it to finish
 
-## Download Binary using cURL 
+## Manual
   ```console
 sudo curl -o moipod https://validator.moi.technology/moipod/v0.5.1/moipod.linux && sudo chmod +x moipod
   ```
 
-## Setup Node
+### Setup Node
 * Step 1: Install NodeJS
 
   ```console
@@ -65,6 +65,6 @@ sudo curl -o moipod https://validator.moi.technology/moipod/v0.5.1/moipod.linux 
   ./moipod --username <moi-id username> --password <moi-id password> --nodepass <node password> --deregister
   ```
 
-## [Check Validator](https://iome.ai/validators)
-Incentive will be visible after 24 hours indashboard
-
+## [Check Validator
+    [Check](https://iome.ai/validators)
+    Incentive will be visible after 24 hours indashboard
