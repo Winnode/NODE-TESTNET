@@ -1,7 +1,5 @@
-<p align="center">
-![eO27Z4sz_400x400](https://user-images.githubusercontent.com/96678356/219349595-d1193c7e-5543-4bea-9113-8606ee7ad15f.jpg)
-</p>
 
+![eO27Z4sz_400x400](https://user-images.githubusercontent.com/96678356/219349691-54368761-fb33-4641-ae81-1cf16459abb2.jpg)
 
 > [Docs](https://validator.moi.technology/docs?activeTab=CLI)
 
