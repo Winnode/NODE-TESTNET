@@ -6,9 +6,9 @@
 > [Portal](https://moi.technology/indus/)
 
 
-* [Register + KYC](https://iome.ai/signup) 
+* [Register](https://iome.ai/signup) 
 
-* Submit Front ID & Selfie, wait 2  Minute - 24 Hours
+* KYC : Submit Front ID & Selfie, wait 2  Minute - 24 Hours
 
 # Install Become a Node MOI
 
@@ -29,16 +29,17 @@ sudo curl -o moipod https://validator.moi.technology/moipod/v0.5.1/moipod.linux 
   ```
 
 ## Setup Node
-
 * Step 1: Install NodeJS
+
   ```console
+  apt update 
     ```
-apt update 
+  ```console
+  apt install Node.js
     ```
-apt install Node.js
+  ```console
+  apt install npm 
   ```
-apt install npm 
-  ``
 * Step 2: Install Node ZKP Library
   ```console
 sudo npm i @nuid/zk@0.0.12 -g
