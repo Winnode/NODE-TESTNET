@@ -46,7 +46,7 @@ sudo curl -o moipod https://validator.moi.technology/moipod/v0.5.1/moipod.linux 
   ```
   
 * Step 3: Start/Restart MOI Pod
-  Node_password = create gegining Instalation
+  Node password = create Begining Instalation
   ```console
   ./moipod --username <MOI-ID username> --password <MOI-ID password> --nodepass <node password>
   ```
