@@ -1,5 +1,5 @@
 <p align="center">
-  <img height="50" height="auto" src="https://user-images.githubusercontent.com/38981255/184088981-3f7376ae-7039-4915-98f5-16c3637ccea3.PNG">
+![moi-logo](https://user-images.githubusercontent.com/96678356/219348837-5ee4b69d-071e-43b5-a843-d8f494fb6c26.svg)
 </p>
 
 
@@ -7,11 +7,10 @@
 
 > [Portal](https://moi.technology/indus/)
 
-> [Register + KYC](https://iome.ai/signup)
 
+* [Register + KYC](https://iome.ai/signup) 
 
-> [Register + KYC](https://iome.ai/signup) 
-Submit Front ID & Selfie, wait 2  Minute - 24 Hours
+* Submit Front ID & Selfie, wait 2  Minute - 24 Hours
 
 # Install Become a Node MOI
 
