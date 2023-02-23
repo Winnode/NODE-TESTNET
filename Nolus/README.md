@@ -17,14 +17,7 @@ You can setup your Nolus fullnode in few minutes by using automated script below
 ```
 wget -O nolus.sh https://github.com/an-node/NODE-TESTNET/blob/main/Nolus/nolus.sh && chmod +x nolus.sh && ./nolus.sh
 ```
-### Public Endpoint
-
->- API : https://api.nolus.nodexcapital.com
->- RPC : https://rpc.nolus.nodexcapital.com
->- gRPC : https://grpc.nolus.nodexcapital.com
->- gRPC Web : https://grpc-web.nolus.nodexcapital.com
-
-### Snapshot (Update every 5 hours)
+### Snapshot
 ```
 sudo systemctl stop nolusd
 cp $HOME/.nolus/data/priv_validator_state.json $HOME/.nolus/data/priv_validator_state.json.backup
