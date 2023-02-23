@@ -15,7 +15,7 @@ NODE  | CPU     | RAM      | SSD     | OS     |
 ### Automatic Installer
 You can setup your Nolus fullnode in few minutes by using automated script below.
 ```
-wget -O nolus.sh  https://github.com/an-node/NODE-TESTNET/blob/main/Nolus/nolus.sh && chmod +x nolus.sh && ./nolus.sh
+wget -O nolus.sh https://github.com/an-node/NODE-TESTNET/blob/main/Nolus/nolus.sh && chmod +x nolus.sh && ./nolus.sh
 ```
 ### Public Endpoint
 
