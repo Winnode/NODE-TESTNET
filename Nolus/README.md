@@ -10,7 +10,7 @@
 ### Minimum Hardware :
 NODE  | CPU     | RAM      | SSD     | OS     |
 | ------------- | ------------- | ------------- | -------- | -------- |
-| NOLUS | 2          | 4         | 120  | Ubuntu 20.04 LTS  |
+| NOLUS | 2          | 4         | 120  | Ubuntu 22.00 LTS  |
 
 ### Automatic Installer
 You can setup your Nolus fullnode in few minutes by using automated script below.
