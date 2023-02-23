@@ -2,8 +2,6 @@
   <img height="100" height="auto" src="https://user-images.githubusercontent.com/34649601/207593974-32d7cb69-eca9-4096-bc96-246fe7038c88.png">
 </p>
 
-# Nolus Testnet | Chain ID : nolus-rila
-
 ### Official
 >- [Docs](https://docs-nolus-protocol.notion.site/Nolus-Protocol-Docs-a0ddfe091cc5456183417a68502705f8)
 
