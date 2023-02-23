@@ -7,9 +7,6 @@
 ### Official documentation:
 >- [Validator setup instructions](https://docs-nolus-protocol.notion.site/Nolus-Protocol-Docs-a0ddfe091cc5456183417a68502705f8)
 
-### Explorer:
->-  https://explorer.nodexcapital.com/nolus
-
 ### Automatic Installer
 You can setup your Nolus fullnode in few minutes by using automated script below.
 ```
