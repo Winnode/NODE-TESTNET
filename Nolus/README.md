@@ -7,6 +7,11 @@
 ### Official documentation:
 >- [Validator setup instructions](https://docs-nolus-protocol.notion.site/Nolus-Protocol-Docs-a0ddfe091cc5456183417a68502705f8)
 
+### Minimum Hardware :
+NODE  | CPU     | RAM      | SSD     | OS     |
+| ------------- | ------------- | ------------- | -------- | -------- |
+| NOLUS | 2          | 4         | 120  | Ubuntu 20.04 LTS  |
+
 ### Automatic Installer
 You can setup your Nolus fullnode in few minutes by using automated script below.
 ```
