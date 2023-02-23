@@ -13,7 +13,6 @@ NODE  | CPU     | RAM      | SSD     | OS     |
 | NOLUS | 2          | 4         | 120  | Ubuntu 22.00 LTS  |
 
 ### Automatic Installer
-You can setup your Nolus fullnode in few minutes by using automated script below.
 ```
 wget -O nolus.sh https://github.com/an-node/NODE-TESTNET/blob/main/Nolus/nolus.sh && chmod +x nolus.sh && ./nolus.sh
 ```
@@ -47,7 +46,6 @@ s|^(trust_hash[[:space:]]+=[[:space:]]+).*$|\1\"$TRUST_HASH\"|" $HOME/.nolus/con
 
 sudo systemctl start nolusd && sudo journalctl -fu nolusd -o cat
 ```
-
 ### Seed Peers
 ```
 sed -i -e "s|^seeds *=.*|seeds = \"3f472746f46493309650e5a033076689996c8881@nolus-testnet.rpc.kjnodes.com:43659\"|" $HOME/.nolus/config/config.toml
