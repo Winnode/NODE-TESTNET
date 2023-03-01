@@ -39,6 +39,9 @@ nibid config chain-id nibiru-itn-1
 # CREATE OR RESTORE A WALLET
 ```
 nibid keys add <wallet_name>
+```
+or 
+```
 nibid keys add <wallet_name> --recover
 ```
 # DOWNLOAD GENESIS
