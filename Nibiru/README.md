@@ -8,10 +8,6 @@
 ```GITBOOK``` - https://docs.nibiru.fi/ <br>
 ```MEDIUM``` - https://blog.nibiru.fi/ <br>
 ```LINKEDIN``` - https://www.linkedin.com/company/nibiruchain/ 
-# SERVICES
-```RPC``` - 65.108.199.120:61757 <br>
-```API``` - 65.108.199.120:1457 <br>
-```PEER``` - 2479ff4d8c0918b95da280319b179f016b5db814@65.108.199.120:61756 
 # EXPLORERS
 ```NIBIRU.FI``` - https://testnet-2.nibiru.fi/ 
 # SOFTWARE REQUIREMENTS
