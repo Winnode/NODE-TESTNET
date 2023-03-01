@@ -1,4 +1,4 @@
-<img src="https://github.com/romanr95/GUIDS/blob/main/NIBIRU/NIBIRU%20LOGO.png" width="1050" alt="" />
+![nibi](https://user-images.githubusercontent.com/96678356/222181438-7a415e6a-8d57-40cb-9dd7-6bc7a8f37302.jpg)
 
 # LINKS
 ```WEBSITE``` - https://nibiru.fi/ <br>
@@ -134,3 +134,5 @@ curl -o - -L https://anode.team/Nibiru/test/anode.team_nibiru_wasm.tar.lz4 | lz4
 ```
 sudo systemctl restart nibid && journalctl -fu nibid -o cat
 ```
+# Check VALIDATOR
+[Explorer](https://nibiru.explorers.guru/)
