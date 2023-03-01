@@ -83,7 +83,7 @@ sudo systemctl daemon-reload && sudo systemctl enable nibid
 sudo systemctl restart nibid && journalctl -fu nibid -o cat
 ```
 # Request Faucet
-  (Discord)[https://discord.gg/nibiru]
+  [Discord](https://discord.gg/nibiru)
   
 # CREATE VALIDATOR
 ```
