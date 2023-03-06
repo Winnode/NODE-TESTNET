@@ -60,21 +60,17 @@ Path of the secret key file: /data/keystore/UTC--2021-01-18T11-36-28.705754426Z-
 - You must REMEMBER your password! Without the password, it's impossible to decrypt the key!
 ```
 
-
 ### Claim faucet
 
-Pergi ke [sini](https://faucet.qtestnet.org/) 
+[Claim](https://faucet.qtestnet.org/) 
 
-
-### Edit.env`
+### Edit '.env`
 
 ```
 nano .env
 ```
 
-### Edit `config.json`
-
-Jalankan perintah ini
+### Edit  `config.json`
 
 ```
 nano config.json
