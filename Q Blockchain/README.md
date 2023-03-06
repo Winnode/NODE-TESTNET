@@ -1,5 +1,7 @@
+![9216fc2e-2dea-40eb-a0b4-9a61fe210eec-QLogoDiscordNew](https://user-images.githubusercontent.com/96678356/223128842-45a9002c-1bea-49d4-a2d8-b4d14279c1b5.gif)
+
+
 # Install Q-Blockchain
-## Referensi
 
 [Docs](https://docs.qtestnet.org/how-to-setup-validator/)
 
@@ -9,14 +11,10 @@
 
 [Validator](https://stats.qtestnet.org/)
 
-### Minimum Hardware
-
-| Komponen | Spesifikasi minimal |
-|----------|---------------------|
-|CPU|Intel Core i3 or i5|
-|RAM|4 GB DDR4 RAM|
-|Penyimpanan|500 GB HDD|
-|Koneksi|100 Mbit/s port|
+## Minimum Spec Hardware :
+NODE  | CPU     | RAM      | SSD     | OS     |
+| ------------- | ------------- | ------------- | -------- | -------- |
+| Q Block | 4          | 4         | 500  | Ubuntu 20.04 LTS  |
 
 
 ### Dependensi
