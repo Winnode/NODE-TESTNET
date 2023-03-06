@@ -80,8 +80,8 @@ Example:
 
 ```js
 {
-  "address": "ganti addressmu + hapus 0x didepan",
-  "password": "Passwordmu",
+  "address": "Replace your address + Remove 0x ",
+  "password": "Your Password",
   "keystoreDirectory": "/data",
   "rpc": "https://rpc.qtestnet.org"
 }
