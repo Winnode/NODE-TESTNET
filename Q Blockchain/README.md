@@ -131,7 +131,7 @@ cd /var/lib/docker/volumes/testnet-validator_testnet-validator-node-data/_data/g
 ```
 ### Download 
 ```
-wget -O - https://snapshots.stakecraft.com/q-testnet_2023-02-23.tar | tar xf -
+wget -O - https://snapshots.stakecraft.com/q-testnet-latest.tar | tar xf -
 ```
 ### Restart Node
 ```
