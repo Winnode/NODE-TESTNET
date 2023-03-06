@@ -64,7 +64,7 @@ Path of the secret key file: /data/keystore/UTC--2021-01-18T11-36-28.705754426Z-
 
 [Claim](https://faucet.qtestnet.org/) 
 
-### Edit '.env`
+### Edit  `.env`
 
 ```
 nano .env
