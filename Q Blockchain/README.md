@@ -143,6 +143,5 @@ docker-compose logs -f --tail "100"
 ```
 ### Check Status Node 
 ```
-[Check](https://itn.qdev.li/)
-[Check](https://itn.qdev.li/) 
+Connect Walet Metamask to https://itn.qdev.li/ 
 ```
