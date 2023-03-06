@@ -125,7 +125,7 @@ git stash apply && docker-compose pull
 ```
 docker-compose up -d
 ```
-## Update
+# New Update
 ```
 cd /var/lib/docker/volumes/testnet-validator_testnet-validator-node-data/_data/geth/chaindata/
 ```
