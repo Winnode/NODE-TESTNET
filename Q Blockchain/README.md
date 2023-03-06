@@ -143,5 +143,5 @@ docker-compose logs -f --tail "100"
 ```
 ### Check Status Node 
 ```
-[Check](https://itn.qdev.li/ ) connect metamask
+[Check](https://itn.qdev.li/)
 ```
