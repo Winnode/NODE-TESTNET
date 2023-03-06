@@ -142,6 +142,8 @@ cd $HOME/testnet-public-tools/testnet-validator && docker-compose down && docker
 docker-compose logs -f --tail "100"
 ```
 ### Check Status Node 
-```
-Connect Walet Metamask to https://itn.qdev.li/ 
-```
+
+Connect Walet Metamask to  
+
+[Check](https://itn.qdev.li/)
+
