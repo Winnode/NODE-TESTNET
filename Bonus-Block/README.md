@@ -8,7 +8,10 @@ NODE  | CPU     | RAM      | SSD     |
 | ------------- | ------------- | ------------- | -------- |
 | Testnet | 4          | 8         | 120  |
 
-
+### EXPLOLER
+```
+https://explorer.dwentz.xyz/
+```
 ### Install otomatis
 ```
 wget -O bonus.sh https://raw.githubusercontent.com/xcodenode/NODE-TESTNET/main/Bonus-Block/bonus.sh && chmod +x bonus.sh && ./bonus.sh
