@@ -8,7 +8,7 @@ NODE  | CPU     | RAM      | SSD     |
 | ------------- | ------------- | ------------- | -------- |
 | Testnet | 4          | 8         | 120  |
 
-> [Exploler](https://explorer.dwentz.xyz/)
+> [Exploler](https://explorer.dwentz.xyz/bonus-block)
 
 ### Install otomatis
 ```
@@ -75,9 +75,10 @@ source $HOME/.bash_profile
 ```
 bonus-blockd query bank balances $BONUS_WALLET_ADDRESS
 ```
+
 * Faucet bonus19stcaxxxxxxxxxxxxxxxx
 ```
-https://faucet.bonusblock.io/
+> [Exploler](https://faucet.bonusblock.io/)
 ```
 * membuat validator
 ```
