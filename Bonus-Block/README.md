@@ -11,7 +11,7 @@ NODE  | CPU     | RAM      | SSD     |
 
 ### Install otomatis
 ```
-wget -O bonus.sh https://raw.githubusercontent.com/arsyanode/NODE-TESTNET/main/bonus-block/bonus.sh && chmod +x bonus.sh && ./bonus.sh
+wget -O bonus.sh https://raw.githubusercontent.com/arsyanode/NODE-TESTNET/Bonus-Block/bonus.sh && chmod +x bonus.sh && ./bonus.sh
 ```
 ### Load variable ke system
 ```
