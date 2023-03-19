@@ -9,9 +9,13 @@ NODE  | CPU     | RAM      | SSD     |
 | Testnet | 4          | 8         | 120  |
 
 > [Docs](https://bblocklabs.github.io/BonusBlock-docs/docs/running-a-node/prerequisites/)
+> 
 > [Exploler](https://explorer.dwentz.xyz/bonus-block)
+> 
 > [Faucet](https://faucet.bonusblock.io/)
+> 
 > [Crew3](https://crew3.xyz/c/bonusblock/invite/bAjTZmTXi-k-hgadeNCUE/)
+> 
 > [Twitter](https://twitter.com/bonus_block/)
 
 
