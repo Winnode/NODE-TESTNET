@@ -74,6 +74,10 @@ source $HOME/.bash_profile
 ```
 bonus-blockd query bank balances $BONUS_WALLET_ADDRESS
 ```
+* Faucet bonus19stcaxxxxxxxxxxxxxxxx
+```
+https://faucet.bonusblock.io/
+```
 * membuat validator
 ```
 bonus-blockd tx staking create-validator \
