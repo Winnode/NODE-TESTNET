@@ -17,6 +17,8 @@ NODE  | CPU     | RAM      | SSD     |
 > [Crew3](https://crew3.xyz/c/bonusblock/invite/bAjTZmTXi-k-hgadeNCUE/)
 > 
 > [Twitter](https://twitter.com/bonus_block/)
+> 
+> [Telegram](https://t.me/bonusblock/)
 
 
 ### Install otomatis
