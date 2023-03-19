@@ -9,6 +9,8 @@ NODE  | CPU     | RAM      | SSD     |
 | Testnet | 4          | 8         | 120  |
 
 > [Exploler](https://explorer.dwentz.xyz/bonus-block)
+> > [Faucet](https://faucet.bonusblock.io/)
+
 
 ### Install otomatis
 ```
