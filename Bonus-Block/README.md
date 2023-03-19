@@ -10,7 +10,7 @@ NODE  | CPU     | RAM      | SSD     |
 
 > [Docs](https://bblocklabs.github.io/BonusBlock-docs/docs/running-a-node/prerequisites/)
 > 
-> [Exploler](https://explorer.dwentz.xyz/bonus-block)
+> [Exploler](https://explorer.dwentz.xyz/bonus-block/staking/bonusvaloper19stcam0kspuzkrze0yyuagvxyh5sqaxe632dcv)
 > 
 > [Faucet](https://faucet.bonusblock.io/)
 > 
