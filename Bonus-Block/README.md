@@ -77,7 +77,7 @@ bonus-blockd query bank balances $BONUS_WALLET_ADDRESS
 ```
 
 * Faucet bonus19stcaxxxxxxxxxxxxxxxx
-> [Exploler](https://faucet.bonusblock.io/)
+> [Faucet](https://faucet.bonusblock.io/)
 
 * membuat validator
 ```
